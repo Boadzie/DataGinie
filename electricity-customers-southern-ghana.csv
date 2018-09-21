@@ -1,0 +1,73 @@
+ID,REGION,LOCATION,METRO/MUNICIPAL/DISTRICT,HV VOLTAGE,NUMBER OF CUSTOMERS,OPERATIONAL AREA
+1,Greater Accra Region,MAMPONG,Akwapim North,11,17522,ACCRA EAST 
+2,Greater Accra Region,TESHIEE,Ledzokuku,11,28537,ACCRA EAST 
+3,Greater Accra Region,KWABENYA,Ga East,11,31132,ACCRA EAST 
+4,Greater Accra Region,MAKOLA,Accra Metropolitan Assembly,11,46943,ACCRA EAST 
+5,Greater Accra Region,ROMAN RIDGE,Accra Metropolitan Assembly,11,51866,Tamale
+6,Greater Accra Region,LEGON,Ga East,11,75258,ACCRA EAST 
+7,Greater Accra Region,BORTIANOR,Ga South,11,20662,ACCRA WEST
+8,Greater Accra Region,KORLE BU,Accra Metropolitan Assembly,11,47157,ACCRA WEST
+9,Greater Accra Region,NSAWAM,Akwapim South ,11,60397,ACCRA WEST
+10,Greater Accra Region,DANSOMAN,Accra Metropolitan Assembly,11,70212,ACCRA WEST
+11,Greater Accra Region,KANESHIE,Accra Metropolitan Assembly,11,76898,ACCRA WEST
+12,Greater Accra Region,ACHIMOTA,Accra Metropolitan Assembly,11,89244,ACCRA WEST
+13,Ashanti Region,MAMPONG,Mampong Municipal,33,17100,ASHANTI EAST 
+14,Ashanti Region,EFFIDUASI,Ejisu Juaben,11,19404,ASHANTI EAST 
+15,Ashanti Region,KONONGO,Asante Akim South,11,24715,ASHANTI EAST 
+16,Ashanti Region,KWABRE,Kwabre,11,25460,ASHANTI EAST 
+17,Ashanti Region,ASOKWA,KMA,11,31682,ASHANTI EAST 
+18,Ashanti Region,AYIGYA,Asokore Mampong ,11,40360,ASHANTI EAST 
+19,Ashanti Region,MANHYIA,KMA,11,52250,ASHANTI EAST 
+20,Ashanti Region,SUAME,KMA,11,,ASHANTI WEST
+21,Ashanti Region,DUNKWA,Upper Denkyira East,11,10935,ASHANTI WEST
+22,Ashanti Region,OFFINSO,Offinso South,,12759,ASHANTI WEST
+23,Ashanti Region,BEKWAI,Bekwai Municipal,11,23647,ASHANTI WEST
+24,Ashanti Region,OBUASI,Obuasi Municipal,11,35447,ASHANTI WEST
+25,Ashanti Region,ABUAKWA,Atwima Nwabiagya,11,44383,ASHANTI WEST
+26,Ashanti Region,N/EDUBIASE,Adansi South,33,,ASHANTI WEST
+27,Central Region,BREMAN ASIKUMA,Asikuma,33,6775,CENTRAL 
+28,Central Region,AJUMAKO,Ajumako,33,10940,CENTRAL 
+29,Central Region,ASSIN FOSU,Assin North,11,11645,CENTRAL 
+30,Central Region,TWIFO PRASO,Lower Denkyira,33,15569,CENTRAL 
+31,Central Region,SALTPOND,Mfantsiman,33,17955,CENTRAL 
+32,Central Region,WINNEBA,Effutu,11,19278,CENTRAL 
+33,Central Region,KASOA,Effutu,33,29400,CENTRAL 
+34,Central Region,ONA SWEDRU,Agona West,33,33550,CENTRAL 
+35,Central Region,CAPE COAST,CCMA,11,57134,CENTRAL 
+36,Eastern Region,NKAWKAW,Kwahu West,33,,EASTERN
+37,Eastern Region,AKWATIA,Kwaebibirem,33,,EASTERN
+38,Eastern Region,DONKORKROM,Kwahu North,33,,EASTERN
+39,Eastern Region,KOFORIDUA,New Juaben,33,,EASTERN
+40,Eastern Region,ASESEWA,Upper Manya Krobo,33,,EASTERN
+41,Eastern Region,ABIREM,Birim North,33,,EASTERN
+42,Greater Accra Region,PRAMPRAM,Dangbe East,11,8055,TEMA
+43,Greater Accra Region,ADA,Dangbe East,33,13829,TEMA
+44,Greater Accra Region,KROBO,Lower Manya Krobo,11,23964,TEMA
+45,Greater Accra Region,TEMA SOUTH,Ga East,11,46976,TEMA
+46,Greater Accra Region,NUNGUA,Ledzokuku,11,61369,TEMA
+47,Greater Accra Region,TEMA NORTH,Ga East,11,88404,TEMA
+48,Eastern Region,DONKORKROM,Kwahu South,33,,EASTERN
+49,Eastern Region,ODA,Birim Central,,,EASTERN
+50,Eastern Region,TAFO,East Akim,11,182480,EASTERN
+51,Volta Region,NKWANTA,Nkwanta South,33,3947,VOLTA
+52,Volta Region,DAMBAI,Krachi East,33,5264,VOLTA
+53,Volta Region,JASIKAN,Jasikan,33,7146,VOLTA
+54,Volta Region,SOGAKOPE,South Tongu,11,8995,VOLTA
+55,Volta Region,KETA,Keta,11,10142,VOLTA
+56,Volta Region,AKATSI,Akatsi South,33,11434,VOLTA
+57,Volta Region,KPEVE,South Dayi,11,11615,VOLTA
+58,Volta Region,KPANDO,Kpando ,11,11755,VOLTA
+59,Volta Region,DENU,Ketu South,11,19596,VOLTA
+60,Volta Region,HOHOE,Hohoe ,33,23243,VOLTA
+61,Volta Region,HO,Ho ,11,30809,VOLTA
+62,Western Region,ENCHI,Aowin-Suaman,33,6522,WESTERN
+63,Western Region,ASANKRAGUA,Wasa-Amenfi West,33,8043,WESTERN
+64,Western Region,JUABESO,Juabeso,33,10371,WESTERN
+65,Western Region,BOGOSO,Prestea,33,11924,WESTERN
+66,Western Region,HALF  ASSINI,Jomoro,33,12153,WESTERN
+67,Western Region,BIBIANI,Bibiani,33,14608,WESTERN
+68,Western Region,AXIM,Nzema East,33,17843,WESTERN
+69,Western Region,SEFWI WIAWSO,Sefwi Wiawso,33,19996,WESTERN
+70,Western Region,TARKWA,Tarkwa,,25263,WESTERN
+71,Western Region,SEKONDI,Sekondi-Takoradi,,48367,WESTERN
+72,Western Region,TAKORADI,Sekondi-Takoradi,,82154,WESTERN
