@@ -10,6 +10,20 @@ body {
   color: #555;
 }
 
+/* Navigation Bar */
+.navbar-default {
+    background-color: #1a9988;
+    border-color: #1a9988;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand {
+   color: #fff;
+}
+
 /*---------------
 / Page Header
 ----------------*/
@@ -68,7 +82,7 @@ section h2 {
 }
 
 section p {
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
@@ -76,6 +90,11 @@ section p {
 
 .what-we-do img {
   float: left;
+}
+
+.globe {
+  width: 300px;
+  height: 300px;
 }
 
 .our-mission {
@@ -89,7 +108,8 @@ section p {
 
 footer {
   padding: 50px;
-  background: #ededed;
+  background: #1e9988;
+  color: #fff;
 }
 
 footer p {
@@ -139,6 +159,34 @@ section#about {
   width: 200px;
   border-radius: 50%;
 }
+
+/* Contact Page */
+.contact-header {
+  padding: 40px 20px;
+  background-color: #ededed;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-list {
+  width: 630px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-bottom: 2px solid gray;
+}
+
+.contact-list img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.contact-list p {
+  vertical-align: middle;
+}
+
 
 
 /* Media Queries */

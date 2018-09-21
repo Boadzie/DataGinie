@@ -39,7 +39,7 @@ ui <- navbarPage("DataGinie",
                                                   tags$p("It is not enough to derive insight from data. To make data useful, you need to apply your insight to real-world problems.")
                                            ),
                                            column(6,
-                                                  tags$img(src="images/preview-dashboard-2.png"))
+                                                  tags$img(class="globe", src="images/use-case.png", tags$style("width: 200px, height: 200px")))
                                            
                                          )
                             ),
@@ -107,10 +107,35 @@ ui <- navbarPage("DataGinie",
                                
                                ),
                       tabPanel("Agriculture")),
-           tabPanel("Contact"),
+           tabPanel("Contact",
+                    fluidRow(
+                      tags$div(class="contact-header",
+                               tags$h1("Contact Us")),
+                      tags$div(class="contact-list",
+                               fluidRow(
+                                 column(3, 
+                                               tags$img(src="images/dan1.jpg")),
+                                        column(6, offset=2,
+                                               tags$h4(icon("user"), "Daniel Boadzie"),
+                                               tags$p(icon("envelope"), "boadziedaniel43@gmail.com")))),
+                      tags$div(class="contact-list",
+                               fluidRow(
+                                 column(3, 
+                                        tags$img(src="images/efua.jpeg")),
+                                 column(6, offset=2,
+                                        tags$h4(icon("user"), "Dorothy Ewuah"),
+                                        tags$p(icon("envelope"), "boadziedaniel43@gmail.com")))),
+                      tags$div(class="contact-list",
+                               fluidRow(
+                                 column(3,
+                                        tags$img(src="images/victor.jpg")),
+                                 column(6, offset=2,
+                                        tags$h4(icon("user"), "Victor Bruce"),
+                                        tags$p(icon("envelope"), "victorbruce82@gmail.com"))))
+                    )),
            tags$br(),
            tags$br(),
            tags$footer(class="footer",
-             tags$p("DataGinie Copyrights 2018")
+             tags$p("DataGinie", icon("copyright"), "2018")
            )
 )
