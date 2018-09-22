@@ -173,11 +173,30 @@ section#about {
 }
 
 /* Contact Page */
-.contact-header {
+.contact-header, .usecase-header {
   padding: 40px 20px;
   background-color: #ededed;
   margin-bottom: 30px;
   text-align: center;
+}
+
+.usecase-header{
+  margin-top: 20px;
+}
+
+.usecase-content {
+  width: 630px;
+  margin: 0 auto;
+}
+
+.usecase {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #1a9988;
+}
+
+.usecase h3 {
+  font-weight: bold;
 }
 
 .contact-list {
@@ -186,9 +205,8 @@ section#about {
   padding-bottom: 20px;
   margin: 0 auto;
   margin-bottom: 20px;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #1a9988;
 }
-
 .contact-list img {
   width: 200px;
   height: 200px;
