@@ -96,7 +96,8 @@ ui <- navbarPage("DataGinie",
                                                     )),
                                                     tabPanel("Summary", verbatimTextOutput("summary")),
                                                     tabPanel("Table", DT::dataTableOutput("mytable")),
-                                                    tabPanel("Use Case", textOutput("use"))
+                                                    tabPanel("Use Case",
+                                                             tags$h1("Real World Use Cases"))
                                         
                                  )
                                         
@@ -124,7 +125,7 @@ ui <- navbarPage("DataGinie",
                                         tags$img(src="images/efua.jpeg")),
                                  column(6, offset=2,
                                         tags$h4(icon("user"), "Dorothy Ewuah"),
-                                        tags$p(icon("envelope"), "boadziedaniel43@gmail.com")))),
+                                        tags$p(icon("envelope"), "dorothyewuah@gmail.com")))),
                       tags$div(class="contact-list",
                                fluidRow(
                                  column(3,
