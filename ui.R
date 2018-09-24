@@ -96,7 +96,27 @@ ui <- navbarPage("DataGinie",
                                                     )),
                                                     tabPanel("Summary", verbatimTextOutput("summary")),
                                                     tabPanel("Table", DT::dataTableOutput("mytable")),
-                                                    tabPanel("Use Case", textOutput("use"))
+                                                    tabPanel("Use Case",
+                                                             tags$div(class="usecase-header",
+                                                                      tags$h1("Real World Use Cases")),
+                                                             tags$div(class="usecase-content",
+                                                                      tags$div(class="usecase",
+                                                                        tags$h3("Government:"),
+                                                                        tags$p("The information will help the government focus on which area to pay most attention to when it comes to taking up public education on the consumption and usage of electricity in the higher consumption areas.")
+                                                                      ),
+                                                                      tags$div(class="usecase",
+                                                                        tags$h3("Appliance Manufacturers:"),
+                                                                        tags$p("Companies who are into electrical appliances can rely on this information to know which areas will be a market niche for their electrical appliances.")
+                                                                      ),
+                                                                      tags$div(class="usecase",
+                                                                        tags$h3("Users:"),
+                                                                        tags$p("This information will make users of electricity more responsible about how they go about the usage of electricity in their various homes and work place")
+                                                                      )
+                                                                      
+                                                                      )
+                                                             
+                                                             
+                                                             )
                                         
                                  )
                                         
@@ -124,7 +144,7 @@ ui <- navbarPage("DataGinie",
                                         tags$img(src="images/efua.jpeg")),
                                  column(6, offset=2,
                                         tags$h4(icon("user"), "Dorothy Ewuah"),
-                                        tags$p(icon("envelope"), "boadziedaniel43@gmail.com")))),
+                                        tags$p(icon("envelope"), "dorothyewuah@gmail.com")))),
                       tags$div(class="contact-list",
                                fluidRow(
                                  column(3,
