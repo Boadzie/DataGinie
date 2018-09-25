@@ -95,7 +95,7 @@ ui <- navbarPage("DataGinie",
                                                       fluidRow(class="space", column(12)),
                                                       fluidRow(
                                                         column(7, offset = 1,  tags$h3("Plot"), plotOutput("bubble")),
-                                                        column(4,  tags$h3("Interpretation"), tags$p("From the chart, it is clear that Western Region has the highest Voltage consumption, making it the most idea for energy efficient policy regulation. Conversely, Tamale, in the Nothern region has the lowest voltage consumption.")))
+                                                        column(4,  tags$h3("Interpretation"), tags$p("From the chart, it is clear that Western Region has the highest Voltage consumption, even though the first graph show a relatively lower customer base. Thus making it the most idea for energy efficient policy regulation. Conversely, Tamale, in the Nothern region has the lowest voltage consumption.")))
                                                     )),
                                                     tabPanel("Summary", verbatimTextOutput("summary")),
                                                     tabPanel("Table", DT::dataTableOutput("mytable")),
@@ -120,12 +120,17 @@ ui <- navbarPage("DataGinie",
                                                                        
                                                                       ),
                                                                       tags$div(class="usecase",
+
                                                                         tags$img(src="images/users.svg", width="255px", height="170px"),
                                                                         tags$div(
                                                                           tags$h3("Users:"),
                                                                           tags$p("This information will make users of electricity more responsible about how they go about the usage of electricity in their various homes and work place")
                                                                         )
                                                                         
+
+                                                                        tags$h3("Users:"),
+                                                                        tags$p("This information will make users of electricity, especially those in the high consumption zones, more responsible about how they go about the usage of electricity in their various homes.")
+
                                                                       )
                                                                       
                                                                       )
