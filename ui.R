@@ -125,7 +125,7 @@ ui <- navbarPage("DataGinie",
                                                                         tags$div(
                                                                           tags$h3("Users:"),
                                                                           tags$p("This information will make users of electricity more responsible about how they go about the usage of electricity in their various homes and work place")
-                                                                        )
+                                                                        ),
                                                                         
 
                                                                         tags$h3("Users:"),
