@@ -6,7 +6,7 @@
 body {
   background-color: #fff;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #555;
   overflow-x: hidden;
 }
@@ -41,7 +41,7 @@ body {
 ----------------*/
 #page-header {
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.5  ), rgba(0,0,0,0.7)), url(images/big-graph.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/big-graph.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -180,10 +180,6 @@ section#about {
   text-align: center;
 }
 
-.usecase-header{
-  margin-top: 20px;
-}
-
 .usecase-content {
   width: 630px;
   margin: 0 auto;
@@ -193,6 +189,11 @@ section#about {
   padding-top: 30px;
   padding-bottom: 30px;
   border-bottom: 2px solid #1a9988;
+}
+
+div.usecase> img {
+  float: left;
+  padding-right: 20px;
 }
 
 .usecase h3 {

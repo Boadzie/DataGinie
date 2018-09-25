@@ -2,6 +2,9 @@ library(shiny)
 library(DT)
 ui <- navbarPage("DataGinie",
                  tabPanel("Home", fluidPage(
+                   tags$head(
+                     tags$link(href="https://fonts.googleapis.com/css?family=Raleway:300,400", rel="stylesheet")
+                   ),
                    fluidRow(
                      column(12, 
                             includeCSS("www/style.css"),
@@ -101,16 +104,28 @@ ui <- navbarPage("DataGinie",
                                                                       tags$h1("Real World Use Cases")),
                                                              tags$div(class="usecase-content",
                                                                       tags$div(class="usecase",
-                                                                        tags$h3("Government:"),
-                                                                        tags$p("The information will help the government focus on which area to pay most attention to when it comes to taking up public education on the consumption and usage of electricity in the higher consumption areas.")
+                                                                        tags$img(src="images/ghanaflag.png"),
+                                                                        tags$div(
+                                                                          tags$h3("Government:"),
+                                                                          tags$p("The information will help the government focus on which area to pay most attention to when it comes to taking up public education on the consumption and usage of electricity in the higher consumption areas.")
+                                                                        )
+                                                                       
                                                                       ),
                                                                       tags$div(class="usecase",
-                                                                        tags$h3("Appliance Manufacturers:"),
-                                                                        tags$p("Companies who are into electrical appliances can rely on this information to know which areas will be a market niche for their electrical appliances.")
+                                                                        tags$img(src="images/business.svg", height="170px", width="255px"),
+                                                                        tags$div(
+                                                                          tags$h3("Appliance Manufacturers:"),
+                                                                          tags$p("Companies who are into electrical appliances can rely on this information to know which areas will be a market niche for their electrical appliances.")
+                                                                        )
+                                                                       
                                                                       ),
                                                                       tags$div(class="usecase",
-                                                                        tags$h3("Users:"),
-                                                                        tags$p("This information will make users of electricity more responsible about how they go about the usage of electricity in their various homes and work place")
+                                                                        tags$img(src="images/users.svg", width="255px", height="170px"),
+                                                                        tags$div(
+                                                                          tags$h3("Users:"),
+                                                                          tags$p("This information will make users of electricity more responsible about how they go about the usage of electricity in their various homes and work place")
+                                                                        )
+                                                                        
                                                                       )
                                                                       
                                                                       )
