@@ -10,7 +10,7 @@ ui <- navbarPage("DataGinie",
                             includeCSS("www/style.css"),
                             tags$header(id="page-header",
                                         tags$div(class="page-header-text",
-                                                 tags$h1("Informed Decisions produce wins! Visualized data reveals insight that inform decisions."),
+                                                 tags$h1("Informed Decisions produce wins! Visualized data reveals insight that informs decisions."),
                                                  tags$a(href="#", "Find out more..."))
                             ),
                             tags$section(class="what-we-do",
