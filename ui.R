@@ -89,13 +89,13 @@ ui <- navbarPage("DataGinie",
                                                     tabPanel("Plot", fluidRow(
                                                       column(8, offset = 1, tags$h3("Plot"), plotOutput("heat")),
                                                       column(3,  tags$h3("Interpretation"), 
-                                                             tags$p("From the graph, it is clear that Eastern Region has the highest number of customers but the Volta Region has the least number of customers. This insight can be combine with the graph below to make useful decision on energy usage in these areas.")),
+                                                             tags$p("From the graph, we can infer that, even though the Western Region has a customer base of about 97500 households, which is not the highest (Eastern Reion is the highest). This insight can be combine with the graph below to make useful decision on energy usage in this Region.")),
                                                     
                                                       tags$br(),
                                                       fluidRow(class="space", column(12)),
                                                       fluidRow(
                                                         column(7, offset = 1,  tags$h3("Plot"), plotOutput("bubble")),
-                                                        column(4,  tags$h3("Interpretation"), tags$p("From the chart, it is clear that Western Region has the highest Voltage consumption, even though the first graph show a relatively lower customer base. Thus making it the most idea for energy efficient policy regulation. Conversely, Tamale, in the Nothern region has the lowest voltage consumption.")))
+                                                        column(4,  tags$h3("Interpretation"), tags$p("From the chart, it is clear that Western Region has the highest Voltage consumption, even though the first graph show a relatively lower customer base. Thus making it the most idea for energy efficient policy regulation.")))
                                                     )),
                                                     tabPanel("Summary", verbatimTextOutput("summary")),
                                                     tabPanel("Table", DT::dataTableOutput("mytable")),
@@ -107,7 +107,7 @@ ui <- navbarPage("DataGinie",
                                                                         tags$img(src="images/ghanaflag.png"),
                                                                         tags$div(
                                                                           tags$h3("Government:"),
-                                                                          tags$p("The information will help the government focus on which area to pay most attention to when it comes to taking up public education on the consumption and usage of electricity in the higher consumption areas.")
+                                                                          tags$p("The information will help the government focus on the Western Region, when it comes to taking up public education on the efficient usage of electricity.This is due to its high consumptions rate.")
                                                                         )
                                                                        
                                                                       ),
@@ -115,7 +115,7 @@ ui <- navbarPage("DataGinie",
                                                                         tags$img(src="images/business.svg", height="170px", width="255px"),
                                                                         tags$div(
                                                                           tags$h3("Appliance Manufacturers:"),
-                                                                          tags$p("Companies who are into electrical appliances can rely on this information to know which areas will be a market niche for their electrical appliances.")
+                                                                          tags$p("Companies who are into electrical appliances can rely on this information to  sell thier energy efficient products to the Western Region; thus reducing the energy usage.")
                                                                         )
                                                                        
                                                                       ),
@@ -124,12 +124,8 @@ ui <- navbarPage("DataGinie",
                                                                         tags$img(src="images/users.svg", width="255px", height="170px"),
                                                                         tags$div(
                                                                           tags$h3("Users:"),
-                                                                          tags$p("This information will make users of electricity more responsible about how they go about the usage of electricity in their various homes and work place")
-                                                                        ),
-                                                                        
-
-                                                                        tags$h3("Users:"),
-                                                                        tags$p("This information will make users of electricity, especially those in the high consumption zones, more responsible about how they go about the usage of electricity in their various homes.")
+                                                                          tags$p("This information will make users of electricity more responsible about how they go about the usage of electricity in their various homes, especially people in the Western Region.")
+                                                                        )
 
                                                                       )
                                                                       
@@ -146,7 +142,7 @@ ui <- navbarPage("DataGinie",
                                
                                
                                ),
-                      tabPanel("Agriculture")),
+                      tabPanel("")),
            tabPanel("Contact",
                     fluidRow(
                       tags$div(class="contact-header",

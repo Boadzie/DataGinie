@@ -218,6 +218,10 @@ div.usecase> img {
   vertical-align: middle;
 }
 
+/* TAB PANEL */
+.tab-pane p {
+  font-size: 22px;
+}
 
 
 /* Media Queries */
