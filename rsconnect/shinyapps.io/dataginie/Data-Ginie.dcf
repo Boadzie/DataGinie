@@ -5,8 +5,8 @@ account: dataginie
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 462741
-bundleId: 1604126
+bundleId: 1608809
 url: https://dataginie.shinyapps.io/Data-Ginie/
-when: 1537873694.01923
+when: 1538046359.4632
 asMultiple: FALSE
 asStatic: FALSE

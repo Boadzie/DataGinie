@@ -89,13 +89,13 @@ ui <- navbarPage("DataGinie",
                                                     tabPanel("Plot", fluidRow(
                                                       column(8, offset = 1, tags$h3("Plot"), plotOutput("heat")),
                                                       column(3,  tags$h3("Interpretation"), 
-                                                             tags$p("From the graph, we can infer that, even though the Western Region has a customer base of about 97500 households, which is not the highest (Eastern Reion is the highest). This insight can be combine with the graph below to make useful decision on energy usage in this Region.")),
+                                                             tags$p("From the graph, we can infer that, the Western Region has a customer base of about 97500 households, which is not the highest (Eastern Region is the highest). This insight can be combine with the graph below to make useful decision on energy usage in this Region.")),
                                                     
                                                       tags$br(),
                                                       fluidRow(class="space", column(12)),
                                                       fluidRow(
                                                         column(7, offset = 1,  tags$h3("Plot"), plotOutput("bubble")),
-                                                        column(4,  tags$h3("Interpretation"), tags$p("From the chart, it is clear that Western Region has the highest Voltage consumption, even though the first graph show a relatively lower customer base. Thus making it the most idea for energy efficient policy regulation.")))
+                                                        column(4,  tags$h3("Interpretation"), tags$p("From the chart, it is clear that Western Region has the highest Voltage consumption, even though the first graph show a relatively lower customer base. Thus making it the most ideal for energy efficient policy regulation.")))
                                                     )),
                                                     tabPanel("Summary", verbatimTextOutput("summary")),
                                                     tabPanel("Table", DT::dataTableOutput("mytable")),
