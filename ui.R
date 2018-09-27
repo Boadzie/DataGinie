@@ -63,7 +63,7 @@ ui <- navbarPage("DataGinie",
                                                   tags$div(class="the-team-content", 
                                                            tags$img(src="images/efua.jpeg"),
                                                            tags$h4("Dorothy Ewauh"),
-                                                           tags$p("Web Content Writer")
+                                                           tags$p("Web Content Developer")
                                                   )),
                                            column(4,
                                                   tags$div(class="the-team-content", 
